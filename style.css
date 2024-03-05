@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    font-size: 10px;
   }
   
   .container {
@@ -10,15 +11,18 @@ body, html {
     justify-content: center;
     align-items: center;
     text-align: center;
+    row-gap: 50px;
     height: 100vh;
   }
   
   .word, .translation {
-    font-size: 24px;
+    font-size: 30px;
     margin: 10px;
   }
   
   button {
+  
+  
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
